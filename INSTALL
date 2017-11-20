@@ -1,0 +1,5 @@
+Building Zcash
+
+See the Zcash github wiki (https://github.com/canya/canya/wiki) for instructions on building canyad,
+the intended-for-services, no-graphical-interface, reference
+implementation of Zcash.

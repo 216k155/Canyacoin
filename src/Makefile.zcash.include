@@ -1,0 +1,22 @@
+noinst_PROGRAMS += \
+  canya/GenerateParams \
+  canya/CreateJoinSplit
+
+# tool for generating our public parameters
+canya_GenerateParams_SOURCES = canya/GenerateParams.cpp
+canya_GenerateParams_LDADD = \
+  $(BOOST_LIBS) \
+  $(LIBZCASH) \
+  $(LIBBITCOIN_UTIL) \
+  $(LIBBITCOIN_CRYPTO) \
+  $(LIBZCASH_LIBS)
+
+# tool for profiling the creation of joinsplits
+canya_CreateJoinSplit_SOURCES = canya/CreateJoinSplit.cpp
+canya_CreateJoinSplit_LDADD = \
+  $(LIBBITCOIN_COMMON) \
+  $(LIBZCASH) \
+  $(LIBBITCOIN_UTIL) \
+  $(LIBBITCOIN_CRYPTO) \
+  $(BOOST_LIBS) \
+  $(LIBZCASH_LIBS)
