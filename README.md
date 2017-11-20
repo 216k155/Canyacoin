@@ -10,7 +10,7 @@ Community gift to the World.
 - Algo: Equihash
 - Max supply 21B coins / Current supply: 12500 coins every 2.5 minutes
 - Current block size (CAN = 2MB every 2.5 mins)
-- Technology / Mother coins: Zcas
+- Technology / Mother coins: Zcash
 
 ## Canyacoin Principles: 
 - Anonymous
